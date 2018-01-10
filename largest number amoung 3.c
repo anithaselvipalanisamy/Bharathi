@@ -3,11 +3,11 @@ int main()
 {
 int a,b,c;
 scanf("%d%d%d",&a,&b,&c);
-if(a>b|a>c)
+if(a>b&&a>c)
 {
 printf("a is grater valuve%d \n",a);
 }
-elseif(b>a|b>c)
+elseif(b>a&&b>c)
 {
 printf("b is greater valuve%d \n",b);
 }
