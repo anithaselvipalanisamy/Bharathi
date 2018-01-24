@@ -6,7 +6,7 @@ scanf("%d",&total);
 int a[total];
 for(int i=0;i<total;i++)
 {
-sacnf("%d",&total[i]);
+scanf("%d",&total[i]);
 printf("\t%d",total[i]);
 }
 big=total[0];
