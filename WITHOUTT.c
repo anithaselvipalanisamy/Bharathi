@@ -1,14 +1,13 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 int main()
 {
-int i,count=0;
+int i,j,count=0;
 char s[100];
-for(i=0;i<n;i++)
-{
-scanf("%s",s[i]);
-}
-for(i=0;i<'\0';i++)
+gets(s);
+j=strlen(s);
+for(i=0;i<j;i++)
 {
 if((s[i]>='a'&&s[i]<='z')||(s[i]>='A'&&s[i]<='Z'))
 {
